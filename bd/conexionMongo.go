@@ -12,7 +12,7 @@ import (
 var MongoCN = conectarBD()
 
 //setar la direcion de la base de datos em Mongo atlas
-var clientOptions = options.Client().ApplyURI("mongodb+srv://Admin:12345@mongo-go.b4dx7oi.mongodb.net/?retryWrites=true&w=majority")
+var clientOptions = options.Client().ApplyURI("")
 
 func conectarBD() *mongo.Client {
 	//contexto es un espacio en memoria que se comparte, ademas sirven para comunicar informacion entre ejecuciones
